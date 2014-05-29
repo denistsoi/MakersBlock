@@ -62,7 +62,7 @@ body {
     // background-repeat: no-repeat;
     padding: 0;
     margin: 0;
-
+    border-bottom: initial;
     max-width: 100%;
     img {
         max-width: inherit;
@@ -98,7 +98,7 @@ body {
 
     /* Remove the bottom border on the jumbotron for visual effect */
     .jumbotron {
-        border-bottom: 0;
+        border-bottom: initial;
     }
 }
 
