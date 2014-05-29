@@ -75,7 +75,8 @@ h1 {
 
 /* Supporting marketing content */
 .marketing {
-    margin: 40px 0;
+    margin: 40px 0 20px 0;
+    // margin: 40px 0;
     p + h4 {
         margin-top: 28px;
     }
@@ -83,13 +84,19 @@ h1 {
 
 section:nth-of-type(2n-1){
     background: #c6c0ba;
-    border-radius: 6px;
+    // border-radius: 6px;
     padding: 5px 5px 10px 5px;
 }
-
-section {
-    margin: 15px -15px;
+section:nth-of-type(2n){
+    background: #f5ede4;
+    padding: 5px 5px 10px 5px;
+    // margin-bottom: 15px;
 }
+
+
+// section {
+//     margin: 15px -15px;
+// }
 
 .footer {
     border-top: initial;
@@ -116,6 +123,9 @@ section {
     /* Remove the bottom border on the jumbotron for visual effect */
     .jumbotron {
         border-bottom: initial;
+    }
+    p {
+        font-size: 1.2em;
     }
 }
 
