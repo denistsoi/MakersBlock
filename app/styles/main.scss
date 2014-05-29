@@ -69,6 +69,10 @@ body {
     }
 }
 
+h1 {
+    margin: 20px 0;
+}
+
 /* Supporting marketing content */
 .marketing {
     margin: 40px 0;
@@ -77,6 +81,19 @@ body {
     }
 }
 
+section:nth-of-type(2n-1){
+    background: #c6c0ba;
+    border-radius: 6px;
+    padding: 5px 5px 10px 5px;
+}
+
+section {
+    margin: 15px -15px;
+}
+
+.footer {
+    border-top: initial;
+}
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
     .container {
