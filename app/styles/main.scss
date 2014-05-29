@@ -4,6 +4,16 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/vendor/assets/font
 @import "../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss";
 // endbower
 
+@font-face {
+    font-family: Brandon;
+    src: url('../fonts/Brandon_bld.otf');
+}
+
+@font-face {
+    font-family: Brandon;
+    src: url('../fonts/Calibri.ttf');   
+}
+
 .browsehappy {
     margin: 0.2em 0;
     background: #ccc;
@@ -71,6 +81,8 @@ body {
 
 h1 {
     margin: 20px 0;
+    font-family: Brandon, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
 }
 
 /* Supporting marketing content */
@@ -94,9 +106,10 @@ section:nth-of-type(2n){
 }
 
 
-// section {
-//     margin: 15px -15px;
-// }
+p {
+    font-size: 1.2em;
+    font-family: Calibri, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
 .footer {
     border-top: initial;
@@ -124,9 +137,6 @@ section:nth-of-type(2n){
     .jumbotron {
         border-bottom: initial;
     }
-    p {
-        font-size: 1.2em;
-    }
 }
 
 
@@ -135,9 +145,6 @@ section:nth-of-type(2n){
         // make sure banner image is responsive
         width: inherit;
         padding: 0px;
-    }
-    p {
-        font-size: 1.2em;
     }
     // .footer p {
         // font-size: em;
