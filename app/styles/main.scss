@@ -56,9 +56,12 @@ body {
     border-bottom: 1px solid #e5e5e5;
 
     background: url('../images/Banner_Transparent.png');
+    background-size: contain;
     height: 370px;
     width: 767px;
     background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
 }
 
 /* Supporting marketing content */
@@ -92,4 +95,14 @@ body {
     .jumbotron {
         border-bottom: 0;
     }
+}
+
+
+@media screen and (max-width: 767px) {
+    .jumbotron {
+        // make sure banner image is responsive
+        width: inherit;
+    }
+
+
 }
