@@ -13,7 +13,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/vendor/assets/font
 
 /* Space out content a bit */
 body {
-    padding-top: 20px;
+    padding-top: 3em;
     padding-bottom: 20px;
     background: #e0dad3;
 }
@@ -107,8 +107,12 @@ body {
     .jumbotron {
         // make sure banner image is responsive
         width: inherit;
-        padding: 0 30px
+        padding: 0px;
     }
-
-
+    p {
+        font-size: 1.2em;
+    }
+    // .footer p {
+        // font-size: em;
+    // }
 }
